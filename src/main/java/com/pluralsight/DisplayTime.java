@@ -5,8 +5,6 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Calendar;
-import java.util.TimeZone;
 
 public class DisplayTime {
     public static void main(String[] args) {
@@ -44,40 +42,7 @@ public class DisplayTime {
         DateTimeFormatter formatter4 = DateTimeFormatter.ofPattern("HH:mm zzz 'on' d-MMM-yyyy");
         String formattedDate4 = cst.format(formatter4);
         System.out.println("Today's date and time of the back-to-back World War champs: " + formattedDate4);
-        System.out.print("                  /T /I\n" +
-                "                              / |/ | .-~/\n" +
-                "                          T\\ Y  I  |/  /  _\n" +
-                "         /T               | \\I  |  I  Y.-~/\n" +
-                "        I l   /I       T\\ |  |  l  |  T  /\n" +
-                "     T\\ |  \\ Y l  /T   | \\I  l   \\ `  l Y\n" +
-                " __  | \\l   \\l  \\I l __l  l   \\   `  _. |\n" +
-                " \\ ~-l  `\\   `\\  \\  \\\\ ~\\  \\   `. .-~   |\n" +
-                "  \\   ~-. \"-.  `  \\  ^._ ^. \"-.  /  \\   |\n" +
-                ".--~-._  ~-  `  _  ~-_.-\"-.\" ._ /._ .\" ./\n" +
-                " >--.  ~-.   ._  ~>-\"    \"\\\\   7   7   ]\n" +
-                "^.___~\"--._    ~-{  .-~ .  `\\ Y . /    |\n" +
-                " <__ ~\"-.  ~       /_/   \\   \\I  Y   : |\n" +
-                "   ^-.__           ~(_/   \\   >._:   | l______\n" +
-                "       ^--.,___.-~\"  /_/   !  `-.~\"--l_ /     ~\"-.\n" +
-                "              (_/ .  ~(   /'     \"~\"--,Y   -=b-. _)\n" +
-                "               (_/ .  \\  :           / l      c\"~o \\\n" +
-                "                \\ /    `.    .     .^   \\_.-~\"~--.  )\n" +
-                "                 (_/ .   `  /     /       !       )/\n" +
-                "                  / / _.   '.   .':      /        '\n" +
-                "                  ~(_/ .   /    _  `  .-<_\n" +
-                "                    /_/ . ' .-~\" `.  / \\  \\          ,z=.\n" +
-                "                    ~( /   '  :   | K   \"-.~-.______//\n" +
-                "                      \"-,.    l   I/ \\_    __{--->._(==.\n" +
-                "                       //(     \\  <    ~\"~\"     //\n" +
-                "                      /' /\\     \\  \\     ,v=.  ((\n" +
-                "                    .^. / /\\     \"  }__ //===-  `\n" +
-                "                   / / ' '  \"-.,__ {---(==-\n" +
-                "                 .^ '       :  T  ~\"   ll           \n" +
-                "                / .  .  . : | :!        \\\\\n" +
-                "               (_/  /   | | j-\"          ~^\n" +
-                "                 ~-<_(_.^-~\"\n" +
-                "\n" +
-                "                             ");
+
 
 
 
